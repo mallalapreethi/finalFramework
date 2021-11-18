@@ -1,0 +1,14 @@
+2021-11-18 22:29:30,902  INFO [main] ReadPropertyFile:33 - <navigated to given url>
+2021-11-18 22:29:41,175  INFO [main] ReadPropertyFile:38 - successfully added to cart
+2021-11-18 22:30:03,522  INFO [main] ReadPropertyFile:28 - <<navigated  to  url>>
+2021-11-18 22:30:14,228  INFO [main] ReadPropertyFile:36 - Submitted successfully
+2021-11-18 22:30:39,872  INFO [main] ReadPropertyFile:30 - <<<navigated to url>>>
+2021-11-18 22:30:58,137  INFO [main] ReadPropertyFile:29 - <<<<navigated to url>>>>
+2021-11-18 22:31:06,950  INFO [main] ReadPropertyFile:37 - Successfully performed actions
+2021-11-18 22:31:34,403  INFO [main] ReadPropertyFile:30 - <<<<<navigated to url>>>>>
+2021-11-18 22:31:57,944  INFO [main] ReadPropertyFile:31 - <-navigated to url_>
+2021-11-18 22:32:13,207  INFO [main] ReadPropertyFile:39 - Assertion passed
+2021-11-18 22:32:29,540  INFO [main] ReadPropertyFile:32 - <<-navigated to url->>
+2021-11-18 22:33:04,008  INFO [main] ReadPropertyFile:32 - <<<-navigated to url->>>
+2021-11-18 22:33:36,502  INFO [main] ReadPropertyFile:30 - <<<<-navigated to url->>>>
+2021-11-18 22:34:05,865  INFO [main] ReadPropertyFile:30 - navigation to url

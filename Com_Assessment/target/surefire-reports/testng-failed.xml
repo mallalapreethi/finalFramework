@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="com.mindtree.utilities.Listeners"/>
+    <listener class-name="com.mindtree.utilities.ExtentReporterNG"/>
+  </listeners>
+  <test parallel="none" name="Test1(failed)">
+    <classes>
+      <class name="com.mindtree.pageobject.PersonilizedGifts">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.PersonilizedGifts -->
+      <class name="com.mindtree.pageobject.SearchPage">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.SearchPage -->
+      <class name="com.mindtree.pageobject.AllOfPage">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+          <include name="AllOfItM"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.AllOfPage -->
+      <class name="com.mindtree.pageobject.SignInPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.SignInPage -->
+      <class name="com.mindtree.pageobject.Gifts">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.Gifts -->
+      <class name="com.mindtree.pageobject.TrackOrderPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.TrackOrderPage -->
+      <class name="com.mindtree.pageobject.LifeStylePage">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.LifeStylePage -->
+      <class name="com.mindtree.pageobject.HoverEffect">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.HoverEffect -->
+      <class name="com.mindtree.pageobject.CorporatePage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.CorporatePage -->
+      <class name="com.mindtree.pageobject.GiftCard">
+        <methods>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.GiftCard -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test parallel="none" name="Test3(failed)">
+    <classes>
+      <class name="com.mindtree.pageobject.PersonilizedGifts">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.PersonilizedGifts -->
+      <class name="com.mindtree.pageobject.SearchPage">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.SearchPage -->
+      <class name="com.mindtree.pageobject.AllOfPage">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.AllOfPage -->
+      <class name="com.mindtree.pageobject.SignInPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.SignInPage -->
+      <class name="com.mindtree.pageobject.Gifts">
+        <methods>
+          <include name="GiftHover"/>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.Gifts -->
+      <class name="com.mindtree.pageobject.TrackOrderPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.TrackOrderPage -->
+      <class name="com.mindtree.pageobject.LifeStylePage">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.LifeStylePage -->
+      <class name="com.mindtree.pageobject.HoverEffect">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.HoverEffect -->
+      <class name="com.mindtree.pageobject.CorporatePage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.CorporatePage -->
+      <class name="com.mindtree.pageobject.GiftCard">
+        <methods>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.GiftCard -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test parallel="none" name="Test5(failed)">
+    <classes>
+      <class name="com.mindtree.pageobject.PersonilizedGifts">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.PersonilizedGifts -->
+      <class name="com.mindtree.pageobject.SearchPage">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.SearchPage -->
+      <class name="com.mindtree.pageobject.AllOfPage">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.AllOfPage -->
+      <class name="com.mindtree.pageobject.SignInPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.SignInPage -->
+      <class name="com.mindtree.pageobject.Gifts">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.Gifts -->
+      <class name="com.mindtree.pageobject.TrackOrderPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.TrackOrderPage -->
+      <class name="com.mindtree.pageobject.LifeStylePage">
+        <methods>
+          <include name="LifeStyle"/>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.LifeStylePage -->
+      <class name="com.mindtree.pageobject.HoverEffect">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.HoverEffect -->
+      <class name="com.mindtree.pageobject.CorporatePage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.CorporatePage -->
+      <class name="com.mindtree.pageobject.GiftCard">
+        <methods>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.GiftCard -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test parallel="none" name="Test7(failed)">
+    <classes>
+      <class name="com.mindtree.pageobject.PersonilizedGifts">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.PersonilizedGifts -->
+      <class name="com.mindtree.pageobject.SearchPage">
+        <methods>
+          <include name="SearchBar"/>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.SearchPage -->
+      <class name="com.mindtree.pageobject.AllOfPage">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.AllOfPage -->
+      <class name="com.mindtree.pageobject.SignInPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.SignInPage -->
+      <class name="com.mindtree.pageobject.Gifts">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.Gifts -->
+      <class name="com.mindtree.pageobject.TrackOrderPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.TrackOrderPage -->
+      <class name="com.mindtree.pageobject.LifeStylePage">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.LifeStylePage -->
+      <class name="com.mindtree.pageobject.HoverEffect">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.HoverEffect -->
+      <class name="com.mindtree.pageobject.CorporatePage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.CorporatePage -->
+      <class name="com.mindtree.pageobject.GiftCard">
+        <methods>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- com.mindtree.pageobject.GiftCard -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+</suite> <!-- Failed suite [Suite] -->
