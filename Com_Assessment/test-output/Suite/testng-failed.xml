@@ -5,15 +5,15 @@
     <listener class-name="com.mindtree.utilities.Listeners"/>
     <listener class-name="com.mindtree.utilities.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="Test10(failed)">
+  <test thread-count="5" name="Test1(failed)">
     <classes>
-      <class name="com.mindtree.pageobject.WhatsNewPage">
+      <class name="com.mindtree.pageobject.AllOfPage">
         <methods>
           <include name="close"/>
-          <include name="WhatsNews"/>
           <include name="initialise"/>
+          <include name="AllOfItM"/>
         </methods>
-      </class> <!-- com.mindtree.pageobject.WhatsNewPage -->
+      </class> <!-- com.mindtree.pageobject.AllOfPage -->
     </classes>
-  </test> <!-- Test10(failed) -->
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

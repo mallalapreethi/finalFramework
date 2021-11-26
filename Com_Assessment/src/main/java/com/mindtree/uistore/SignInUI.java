@@ -16,7 +16,7 @@ public class SignInUI {
 	
 	public static HashMap<String,String> getTestData() throws IOException {
 		
-		FileInputStream fis = new FileInputStream("D:\\Selenium\\final Assessment\\Com_Assessment\\ExcelReading\\Excel.xlsx");
+		FileInputStream fis = new FileInputStream("./ExcelReading/Excel.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 		

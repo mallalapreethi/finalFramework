@@ -1,6 +1,7 @@
 package com.mindtree.pageobject;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -13,6 +14,9 @@ import com.mindtree.uistore.AllOfUI;
 
 public class AllOfPage extends ReadPropertyFile {
 	public static Logger log = Logger.getLogger(ReadPropertyFile.class.getName());
+	//driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+
+
 //driver initialization
 	@BeforeTest
 	public void initialise() throws IOException {
@@ -22,6 +26,9 @@ public class AllOfPage extends ReadPropertyFile {
 
 	@Test
 	public void AllOfItM() throws InterruptedException {
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+
 		AllOfUI a = new AllOfUI(driver);
 		
        //get url from config.properties file 
@@ -29,33 +36,35 @@ public class AllOfPage extends ReadPropertyFile {
 		
 		//maximize the window
 		driver.manage().window().maximize();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		log.info("<navigated to given url>");
 		a.getAllOfIt().click();
 		a.getItem().click();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		a.getAddToCart().click();
 		log.info("successfully added to cart");
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		a.getGiftWrap().click();
 		a.getGiftNote().click();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		a.getFromDetails().sendKeys("preethi");
-		a.getToDetails().sendKeys("Mindtree");
+		a.getToDetails().sendKeys("sahithya");
 		a.getMessage().sendKeys("Christmas Gift");
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		System.out.println(a.getTotal().getText());
-//popup
+		
+//popup blocking
 		System.setProperty("webdriver.chrome.driver", "//chrome path in system//");
 		ChromeOptions options = new ChromeOptions();
 		options.setExperimentalOption("excludeSwitches", "disable-popup-blocking");
-		Thread.sleep(2000);
-
+		//Thread.sleep(2000);
+//click on continue shopping
 		a.getContinueShopping().click();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		a.getAllOfIt().click();
 
 	}
+	
 
 	@AfterTest
 	public void close() {

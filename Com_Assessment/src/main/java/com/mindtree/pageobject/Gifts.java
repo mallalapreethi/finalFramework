@@ -1,6 +1,7 @@
 package com.mindtree.pageobject;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.interactions.Actions;
@@ -21,12 +22,13 @@ public class Gifts extends ReadPropertyFile{
 	}
 	@Test
 	public void GiftHover() throws InterruptedException {
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		
 		
 		driver.get(p.getProperty("url"));
 		driver.manage().window().maximize();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		log.info("<<<navigated to url>>>");	
 		
 		

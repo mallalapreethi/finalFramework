@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mindtree.pageobject.GiftCard">
+      <class name="com.mindtree.pageobject.SearchPage">
         <methods>
-          <include name="giftCard"/>
+          <include name="SearchBar"/>
+          <include name="close"/>
           <include name="initialise"/>
         </methods>
-      </class> <!-- com.mindtree.pageobject.GiftCard -->
+      </class> <!-- com.mindtree.pageobject.SearchPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

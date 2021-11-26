@@ -33,7 +33,9 @@ public class SignInPage extends ReadPropertyFile {
 
 		SignInUI s = new SignInUI(driver);
 		HashMap<String, String> data = s.getTestData();
-		System.out.println(data.get(0));
+		//System.out.println(data.get(0));
+		System.out.println(s.getTestData());
+		
 		s.getSignin().click();
 		Thread.sleep(5000);
 

@@ -35,7 +35,7 @@ public static Logger log=Logger.getLogger(ReadPropertyFile.class.getName());
 		Actions action = new Actions(driver);
 		action.moveToElement(h.getImageMovment()).perform();
 		log.info("Successfully performed actions");
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 		
 		
 		
